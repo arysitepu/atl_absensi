@@ -1,0 +1,33 @@
+.bg-auth {
+	/*height: 100vh;
+	width: 100vw;
+	position: relative;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-image: url("../img/clock-image.png");*/
+	background: #000000;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.overlay-auth {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.65);
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.auth-card {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
